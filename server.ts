@@ -50,9 +50,25 @@ async function startServer() {
       { name: 'Amenities', value: amenities_count * weights.amenities_count }
     ].sort((a, b) => Math.abs(b.value) - Math.abs(a.value));
 
+    // Simulated historical data for trend analysis
+    const historical_trend = Array.from({ length: 6 }, (_, i) => ({
+      month: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'][i],
+      market_avg: 200000 + (Math.random() * 50000),
+      predicted_segment: prediction + (Math.random() * 20000 - 10000)
+    }));
+
+    // Simulated benchmark comparison
+    const benchmarks = [
+      { category: 'Calculated Price', value: prediction },
+      { category: 'Neighborhood Avg', value: prediction * 0.92 },
+      { category: 'City Median', value: prediction * 1.15 }
+    ];
+
     res.json({ 
       predicted_price: Math.max(0, prediction),
-      impacts 
+      impacts,
+      historical_trend,
+      benchmarks
     });
   });
 
