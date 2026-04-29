@@ -1,0 +1,10 @@
+# IMAGES DIRECTORY MANIFESTO
+
+## Contents
+- `app_screenshot.png`: Hero image for README.
+- `correlation_heatmap.svg`: Statistical insight visualization.
+- `prediction_flow.png`: High-level architecture diagram.
+
+## Policy
+- Use SVG format for graphs where possible for high resolution on GitHub.
+

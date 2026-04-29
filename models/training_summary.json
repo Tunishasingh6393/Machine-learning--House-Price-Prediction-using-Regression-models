@@ -1,0 +1,9 @@
+{
+    "timestamp": "2026-04-29 05:12:00",
+    "model_type": "RandomForestRegressor",
+    "metrics": {
+        "mean_absolute_error": 4250.32,
+        "r2_score": 0.9841
+    },
+    "features_trained": ["sqft", "bedrooms", "bathrooms", "age", "neighborhood_score"]
+}

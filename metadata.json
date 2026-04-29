@@ -1,0 +1,6 @@
+{
+  "name": "AbodeAI - House Price Predictor",
+  "description": "A complete industry-oriented regression system for real estate valuation. Includes full modular Python codebase, FastAPI integration, and interactive React dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["Machine Learning", "Data Science", "Full Stack Development"]
+}

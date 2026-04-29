@@ -1,0 +1,11 @@
+{
+    "features": {
+        "sqft": 0.584,
+        "neighborhood_score": 0.212,
+        "bedrooms": 0.085,
+        "bathrooms": 0.076,
+        "age": 0.043
+    },
+    "method": "RandomForestRegressor - Feature Importances",
+    "notes": "Living area represents the primary variance driver in the dataset."
+}

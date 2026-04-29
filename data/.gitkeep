@@ -1,0 +1,11 @@
+# DATA DIRECTORY MANIFESTO
+# Standard: ML-Data-v1.0
+
+## Contents
+- `houses_raw.csv`: The untouched original dataset.
+- `houses_clean.parquet`: Feature-engineered version, optimized for memory.
+
+## Policy
+- NEVER push sensitive keys or PII data to this folder.
+- All files should be read-only for the training script.
+

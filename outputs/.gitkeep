@@ -1,0 +1,9 @@
+# Statistical results generated during model evaluation
+
+## Artifacts Created
+- `test_results.csv`: A sample of 50 prediction comparisons.
+- `feature_importance.json`: Dictionary of weights per feature.
+- `actual_vs_predicted.svg`: Regression alignment chart.
+
+## Usage
+These files are used for the 'Results' section in the final research documentation.

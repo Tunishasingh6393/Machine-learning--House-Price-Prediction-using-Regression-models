@@ -1,0 +1,11 @@
+# MODELS DIRECTORY MANIFESTO
+# Standard: Model-Artifacts-v2.1
+
+## Contents
+- `house_regressor_final.joblib`: The production-ready XGBoost/RF model.
+- `scaler.joblib`: The StandardScaling weights used during training.
+
+## Policy
+- Version control models using DVC (optional) or timestamps.
+- Ensure model files are tracked if using LFS (Large File Storage).
+

@@ -1,0 +1,12 @@
+# NOTEBOOKS DIRECTORY MANIFESTO
+# Standard: Lab-Experiment-v1.2
+
+## Contents
+- `01_EDA.ipynb`: Analysis of distributions and skewness.
+- `02_Feature_Engineering.ipynb`: Testing new synthetic features.
+- `03_Hyperparameter_Tuning.ipynb`: Optuna/GridSearch results.
+
+## Policy
+- Keep notebooks clean and "Restart & Run All" verified.
+- Use Relative paths (e.g., `../data/`) to ensure portability.
+
